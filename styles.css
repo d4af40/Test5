@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chat-window {
+  background-color: #fff;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#messages li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+#messageInput {
+  width: 60%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#sendButton {
+  padding: 8px 16px;
+  font-size: 16px;
+}
